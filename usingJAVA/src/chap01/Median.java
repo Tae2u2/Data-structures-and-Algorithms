@@ -31,10 +31,6 @@ public class Median {
 
     }
 
-    // 입력하는 3개의 정수 값의 간격 값이 연속될 때, 라는 조건이 들어간다. 123 , 122, 322같은 135, 147, 이렇게도 되는데
-    // 133 117이렇게 하면 가장 큰 값이 나온다.
-    // 그리고 책에 조건에도 133이 없다. 대소관계라는 조건에선 원래 이런건가
-
     public static void main(String[] args) {
         try (Scanner stdIn = new Scanner(System.in)) {
             System.out.println("세 정수의 중간 값을 구합니다.");
